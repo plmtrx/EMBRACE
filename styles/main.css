@@ -1,0 +1,389 @@
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+  font-size: 2.5em;
+}
+
+#body-teachers {
+  background-color: white;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#page-content {
+  padding-bottom: 3%;
+}
+
+.section-title {
+  font-family: 'Cousine';
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 2% 0;
+}
+
+.section-text {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 4% 0;
+  text-align: justify;
+}
+
+/* Navigation Bar */
+
+.navbarDiv {
+  padding: 0;
+  width: 100%;
+}
+
+.navbar {
+  padding: 1rem;
+  width: 100%;
+  background-color: black;
+}
+
+.navbar-toggler {
+  background-color: white;
+  border-color: black;
+}
+
+.navbar-toggler:hover {
+  background-color: #0025EA;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: white !important;
+  padding: 0 2rem !important;
+}
+
+.nav-link:hover {
+  color: #0025EA !important;
+}
+
+/* Home */
+.home {
+  height: 92vh;
+}
+
+.image-stack {
+  position: relative;
+  width: 100%;
+}
+
+.image-bottom {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+.image-top {
+  padding: 11% 4% 10% 8%;
+  width: 100%; 
+}
+
+img {
+  display: block;
+}
+
+.home-background {
+  height: 90%;
+}
+
+.logo-transparent {
+  width: 70%;
+}
+
+.text-div {
+  width: 46%;
+  margin-left: 3.8%;
+  padding-bottom: 1%;
+  padding-right: 0;
+}
+
+.home-text {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Assistant';
+  font-weight: 200;
+}
+
+.contact-btn {
+  background-color: #0025EA;
+  color: white;
+  margin-left: 3.8%;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* About */
+.about {
+  text-align: justify;
+  width: 100%;
+  background-color: white;
+  padding: 0;
+}
+
+.about-pic {
+  width: 100%;
+}
+
+.about-text {
+  padding: 9% 13%;
+}
+
+.learnMore-btn {
+  background-color: #0025EA;
+  color: white;
+}
+
+.learnMore-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Offers */
+
+#offers {
+  padding: 10% 0 15%;
+}
+
+.offers-title {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0 8%;
+}
+
+.offers-pic {
+  width: 100%;
+}
+
+/* Community */
+
+.community {
+  width: 100%;
+}
+
+.community-pic-div {
+  padding: 0;
+}
+
+.community-pic {
+  width: 100%;
+}
+
+.community-text {
+  background-color: black;
+  color: white;
+  padding: 10%;
+  text-align: center;
+}
+
+/* Inspiration */
+
+.inspiration-pic-div {
+  padding: 0;
+}
+
+.inspiration-pic {
+  width: 100%;
+}
+
+.inspiration-text {
+  background-color: white;
+  padding: 10%;
+  text-align: center;
+}
+
+/* Owner Message */
+
+.owner-message {
+  background-color: black;
+  height: fit-content;
+}
+
+.owner-pic {
+  display: block;
+  margin: 15% auto 0;
+  width: 70%;
+  border-radius: 4rem;
+}
+
+.message-div {
+  color: white;
+  padding: 25% 5% 10%;
+}
+
+.message-p {
+  text-align: justify;
+}
+
+.white-hr {
+  border: 2px solid white;
+  width: 4%;
+  margin: auto;
+  opacity: 1;
+}
+
+/* Folloy Us */
+
+#follow-us {
+  padding: 7rem 0 3rem;
+}
+
+.round-logo {
+  width: 10rem;
+  display: block;
+  margin: auto;
+  padding-bottom: 6%;
+}
+
+.follow-us-div {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 3%;
+  width: 60%;
+}
+
+.follow-us {
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.social-links {
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+/* TEACHERS */
+
+#team-title {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 2rem 0;
+}
+
+hr {
+  border: 2px solid black;
+  width: 4%;
+  margin: auto;
+  opacity: 1;
+}
+
+.about-div {
+  width: 25rem;
+  padding: 4rem 2rem 10rem;
+}
+
+#about-teacher {
+  width: 28%;
+  display: block;
+  margin: 5% auto;
+}
+
+.teacher-pic {
+  width: 100%;
+}
+
+#about-box {
+  background-color: #EEEEEE;
+}
+
+#about-text {
+  padding: 8%;
+  text-align: justify;
+}
+
+.instagram {
+display: block;
+height: 10%;
+padding: 5% 0;
+}
+
+.instagram-logo {
+  width: 8%;
+}
+
+/* Footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;    
+  background-color: black;
+  padding-top: 50px;
+  text-align: center;
+}
+  
+.links {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  background-color: black;
+  bottom: 3%;
+  font-size: 1rem;
+}
+
+.copyright {
+  background-color: black;
+  color: white;
+  padding: 40px 0 10px;
+  font-size: 0.8rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  color: #0025EA;
+}
