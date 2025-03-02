@@ -1,2 +1,2 @@
-# EMBRACE
-test
+# EMBRACE 
+Static version of a dynamic website made on Wix.
